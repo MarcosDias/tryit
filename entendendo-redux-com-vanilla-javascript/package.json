@@ -1,0 +1,23 @@
+{
+  "name": "entendendo-redux-com-vanilla-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server --content-base src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
